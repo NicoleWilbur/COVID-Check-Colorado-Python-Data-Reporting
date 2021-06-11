@@ -1,9 +1,9 @@
-# COVID Check Colorado Python Data Reporting Project
+COVID Check Colorado Python Data Reporting Project
 
 I created this project to automate some data collection and reporting I was doing manually during my time at COVID Check Colorado.
 We were tracking our outreach efforts and the resultant number of appointments made to guide future outreach efforts.
 
-## Overview
+Overview
 
 After I created the tables in the SQL Server database and the stored procedures for updating them, I created some pivot charts and graphs
 of the data to present to the cross-functional team in Excel. I offered the data and visualizations on a daily basis, and they agreed it would be helpful. 
@@ -11,7 +11,7 @@ Therefore, I created this Python program to run the stored procedures in SQL Ser
 create charts and graphs based off that data, and e-mail it to involved parties.
 
 
-## Usage
+Usage
 
 This project uses:
   Python 3
@@ -25,6 +25,6 @@ This project uses:
   PIL
 
 
-## Contributing
+Contributing
 
 Pull requests are welcome. Feel free to use any parts you like. Thanks as always to the stack overflow community for all the shared knowledge.
