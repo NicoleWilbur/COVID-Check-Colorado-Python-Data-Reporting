@@ -3,7 +3,7 @@ import pandas as pd
 import pyodbc as pyodbc
 import yagmail
 from GraphObject import GraphObject
-from StoreFrontPivot import store_front
+from CooPivot import coo_data
 import os
 from PIL import Image
 from fpdf import FPDF
@@ -126,9 +126,9 @@ def main():
                 "UID=foo;"
                 "PWD=Password; autocommit=True")
     cnxn = pyodbc.connect(cnxn_str)
-    #update_ssms_tables(cnxn)
+    update_ssms_tables(cnxn)
     summary_data(cnxn)
-    store_front()
+    coo_data()
     graphing(cnxn)
     for i in range(len(name_array)):
         os.remove(name_array[i])
