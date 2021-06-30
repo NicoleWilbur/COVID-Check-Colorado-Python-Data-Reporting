@@ -8,7 +8,7 @@ Overview
 After I created the tables in the SQL Server database and the stored procedures for updating them, I created some pivot charts and graphs
 of the data to present to the cross-functional team in Excel. I offered the data and visualizations on a daily basis, and they agreed it would be helpful. 
 Therefore, I created this Python program to run the stored procedures in SQL Server to update the tables daily, update and format some text files daily,
-create charts and graphs based off that data, and e-mail it to involved parties.
+create charts and graphs based off that data, and e-mail them to involved parties.
 
 
 Usage
